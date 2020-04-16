@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Empirix suite" thread-count="2" parallel="classes" >
+  <test name="parallel run">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="Default.Parallel"/> 
+      <class name="Default.Empirix_model"></class>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
